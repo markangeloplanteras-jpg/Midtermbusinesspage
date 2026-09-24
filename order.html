@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order</title>
+  </head>
+  <body>
+    <center>
+      <h1>Order Now</h1>
+
+      <p>
+        Fill out the form below to place an order
+      </p>
+
+      <hr>
+
+      <form action="" method="post">
+        
+        <p><b>Full Name:</b></p>
+
+        <input type="text" placeholder="Enter Your name" required>
+
+        <br>
+
+        <p><b>Email:</b></p>
+
+        <input type="email" placeholder="Enter your email" required>
+
+        <br>
+        
+        <p><b>Choose Your order:</b></p>
+
+        <select id="order" required>
+          <option>Choose your order</option>
+          <option>Pre made</option>
+          <option>Custom made</option>
+        </select>
+
+        <p><b>Quantity</b></p>
+
+        <input type="number" required>
+        
+        <p><b>Delivery Address:</b></p>
+
+        <textarea name="address" rows="4" cols="30"></textarea>
+
+        <br>
+
+        <p><b>Message:</b></p>
+        
+        <textarea name="message" rows="4" cols="30"></textarea>
+
+        <br>
+        
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Clear">
+      </form>
+    </center>
+  </body>
+</html>
